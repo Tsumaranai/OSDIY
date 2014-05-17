@@ -113,7 +113,7 @@ printk(const char* fmt,...){
 	buf[pos] = '\0';
 
 	puts(buf);
-		/*this just test GitHub*/
+	
 	va_end(args);
 
 	return pos;
